@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shopping-list-generator.component.css']
 })
 export class ShoppingListGeneratorComponent implements OnInit {
+  item:string = '';
+  items:string[] = [];
+  onClick(){
+    this.items.push(this.item);
+    this.item='';
+  };
 
   constructor() { }
 
