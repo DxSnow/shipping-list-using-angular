@@ -1,8 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
-h1{
-  text-align: center;
-  margin:3rem;
-}
+
 .btn.check{
   background-color: #03f4fc;
 }
